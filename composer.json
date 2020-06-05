@@ -1,0 +1,46 @@
+{
+  "name": "northcreation-agency/silverstripe-template-cache-helper",
+  "description": "Some helper methods for easier template caching (aka Silverstripe Partial caching)",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/northcreation-agency/silverstripe-template-cache-helper",
+  "keywords": [
+    "silverstripe",
+    "4",
+    "cache",
+    "yml"
+  ],
+  "authors": [
+    {
+      "name": "Herbert Cuba Garcia",
+      "email": "herbert@northcreation.agency"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/northcreation-agency/silverstripe-template-cache-helper/issues"
+  },
+  "require": {
+    "silverstripe/framework": "^4.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "NorthCreationAgency\\SilverStripeTemplateCacheHelper\\": "code/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "NorthCreationAgency\\SilverStripeTemplateCacheHelper\\Tests": "tests/"
+    }
+  },
+
+  "extra": {
+    "installer-name": "template-cache-helper"
+  },
+  "license": "BSD-3-Clause",
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
