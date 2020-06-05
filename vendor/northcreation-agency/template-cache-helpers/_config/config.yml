@@ -1,0 +1,2 @@
+SSViewer:
+  global_key: '$CurrentReadingMode, $CurrentLocale, $Locale, $cacheKeyComponent, $SiteConfig.ID, $Currency'

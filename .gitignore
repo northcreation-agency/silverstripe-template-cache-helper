@@ -1,6 +1,6 @@
 /silverstripe-cache/
 /.env
-/vendor/
+/vendor/vendor/
 /themes/simple/
 /_resources/
 /public/_resources/
@@ -32,5 +32,4 @@ _ss_environment.php
 /tools/phing-metadata
 
 # ignore composer vendor folder
-/vendor/
 # END of GitIgnoreEditor
