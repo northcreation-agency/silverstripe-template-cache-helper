@@ -1,0 +1,36 @@
+/silverstripe-cache/
+/.env
+/vendor/
+/themes/simple/
+/_resources/
+/public/_resources/
+/public/assets/
+/.idea
+/log
+.sass-cache
+/public/assets_old
+
+
+# ignore ss stuff
+/silverstripe-cache/
+/logs/
+/assets/
+.DS_Store
+
+.sass-cache
+node_modules/
+.sass-cache
+.idea/
+modules.xml
+.idea
+silverstripe.log
+
+# ignore all environment files
+_ss_environment.php
+
+# ignore build tools
+/tools/phing-metadata
+
+# ignore composer vendor folder
+/vendor/
+# END of GitIgnoreEditor
